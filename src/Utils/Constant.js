@@ -1,0 +1,17 @@
+export const personName = "Vartika Agarwal";
+export const aboutMeContent = "I am an enthusiastic, self-motivated Full-Stack Software Developer with over five years of experience in creating innovative, reliable, and efficient software solutions. I possess a strong background in process-oriented software development and demonstrate excellent work ethics both in team settings and when working independently. My problem-solving skills and analytical mindset further contribute to driving product success.";
+export const companyImage1 = "https://media.licdn.com/dms/image/v2/C4E0BAQFJ26tVfkJeKg/company-logo_200_200/company-logo_200_200/0/1630606173796/birlasoft_logo?e=1733961600&v=beta&t=qX4kfAH4YxBZthbs7neYKA7nSkr4fQL57GQ8M6YI7jY";
+export const companyImage2 = "https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=1733961600&v=beta&t=-pA_92hSHOPoQ788WmOmMARLxmUTrP6tRuuia4QFvBc";
+export const linkedInUrl = "https://www.linkedin.com/in/vartikably";
+export const instagramUrl = "https://www.instagram.com/vartika_ag/";
+export const reactImage = "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg";
+export const tailWindImage = "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg";
+export const bootStrapLogo = "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg";
+export const springBootLogo = "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg";
+export const restApiLogo = "https://miro.medium.com/v2/resize:fit:640/format:webp/1*J3G3akaMpUOLegw0p0qthA.png";
+export const GraphQLLogo = "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg";
+export const oracleSQLLogo = "https://upload.wikimedia.org/wikipedia/en/6/68/Oracle_SQL_Developer_logo.svg";
+export const sqliteLogo = "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg";
+export const splunkLogo = "https://www.finsmes.com/wp-content/uploads/2019/08/splunk.png";
+export const JenkinsLogo = "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg";
+export const cloudbeesUrl = "https://images.ctfassets.net/vtn4rfaw6n2j/7FKeUjwsXI1d2JPUIvSMZJ/be286872ace9ca3b6b66a64adbb3c16a/cb-tag-sm.svg?fm=webp&q=85";
