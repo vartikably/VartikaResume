@@ -2,7 +2,7 @@ import { instagramUrl, linkedInUrl } from "../Utils/Constant";
 import India from "../resource/India.png";
 const Footer = ()=>{
     return(
-        <footer className="flex inset-x-0 bottom-0 h-20 md:flex-row flex-col" >
+        <footer className="flex inset-x-0 bottom-0 h-20 md:flex-row flex-col border-t-2" >
             <div className="md:w-1/4 w-full flex md:flex-col flex-row md:text-center justify-center">
                 <span className="font-bold">Noida, India</span>
                 <img src={India} className="size-8" alt="Location: India"/>
