@@ -2,18 +2,18 @@ import { instagramUrl, linkedInUrl } from "../Utils/Constant";
 import India from "../resource/India.png";
 const Footer = ()=>{
     return(
-        <footer className="flex inset-x-0 bottom-0 h-20 md:flex-row flex-col border-t-2" >
-            <div className="md:w-1/4 w-full flex md:flex-col flex-row md:text-center justify-center">
+        <footer className="flex inset-x-0 bottom-0 h-12 md:flex-row flex-col border-t-2 left-0 right-0" >
+            <div className="md:w-1/4 w-full flex md:flex-col flex-row md:text-center justify-center pt-3">
                 <span className="font-bold">Noida, India</span>
                 <img src={India} className="size-8" alt="Location: India"/>
             </div>
-            <div className="md:w-1/4 w-full flex md:flex-col md:text-center justify-center flex-row gap-2">
+            <div className="md:w-1/4 w-full flex md:flex-col md:text-center justify-center flex-row gap-2 pt-3">
                 <span  className="font-bold">Email</span>
                 <span>vartikably@gmail.com</span>
             </div>
-            <div className="md:w-1/4  flex-wrap w-full flex flex-row md:text-center justify-center">
+            <div className="md:w-1/4  flex-wrap w-full flex flex-row md:text-center justify-center pt-3">
                 <span className="font-bold">Follow me</span>
-                <div className="bg-white md:w-full h-auto flex flex-row items-center justify-center gap-2 flex-wrap mx-2">
+                <div className="bg-white md:w-full h-auto flex flex-row items-center justify-center gap-1 flex-wrap mx-2">
                     <a href={linkedInUrl} target="_blank"
                         className="p-0 md:p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100">
                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 md:size-7" viewBox="0 0 72 72"
@@ -32,7 +32,7 @@ const Footer = ()=>{
                     </svg></a>
                 </div> 
             </div>
-            <div className="md:w-1/4 w-full h-12">
+            <div className="md:w-1/4 w-full h-12 pt-3">
                 <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <span className="hover:underline">By Vartika Agarwal™</span>. All Rights Reserved.
                 </span>
             </div>

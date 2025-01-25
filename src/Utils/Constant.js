@@ -1,6 +1,5 @@
 export const personName = "Vartika Agarwal";
 export const aboutMeContent = "I am an enthusiastic, self-motivated Full-Stack Software Developer with over five years of experience in creating innovative, reliable, and efficient software solutions. I possess a strong background in process-oriented software development and demonstrate excellent work ethics both in team settings and when working independently. My problem-solving skills and analytical mindset further contribute to driving product success.";
-export const companyImage1 = "https://media.licdn.com/dms/image/v2/C4E0BAQFJ26tVfkJeKg/company-logo_200_200/company-logo_200_200/0/1630606173796/birlasoft_logo?e=1733961600&v=beta&t=qX4kfAH4YxBZthbs7neYKA7nSkr4fQL57GQ8M6YI7jY";
 export const companyImage2 = "https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=1733961600&v=beta&t=-pA_92hSHOPoQ788WmOmMARLxmUTrP6tRuuia4QFvBc";
 export const linkedInUrl = "https://www.linkedin.com/in/vartikably";
 export const instagramUrl = "https://www.instagram.com/vartika_ag/";

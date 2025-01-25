@@ -1,22 +1,38 @@
 import { Link } from "react-router-dom";
 import pdfFile from '../resource/Vartika_Agarwal_Resume.pdf';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 
 const Header = ()=>{
     const [isOpen, setIsOpen] = useState(false);
+    const dropdownRef = useRef(null);
     const menuFetch = ()=>{
         let menu = document.getElementById('menu');
         menu.classList.toggle('top-[50px]')
     }
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+          if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+            setIsOpen(false);
+          }
+        };
+        
+        document.addEventListener('click', handleClickOutside);
+        
+        return () => {
+          document.removeEventListener('click', handleClickOutside);
+        };
+      }, []);
+    
     return(
-        <div className="header-container flex p-1 m-1 justify-between text-xl">
+        <div className="relative" ref={dropdownRef}>
+        <div className="header-container flex p-1 px-2 m-1 justify-between text-xl">
             <div className="flex md:text-xl text-sm">
                 <span className="px-1">🟡</span>
                 <span className="px-1 font-bold"><Link to={"/"}>Vartika Agarwal</Link></span>
                 <span className="px-1">Sr. FullStack Developer</span>
             </div>
-            <div id="menu" className="duration-200 absolute md:relative flex md:flex-row flex-col top-[-100%] md:top-[inherit] w-40 right-0 bg-gray-200 md:bg-transparent">
+            <div id="menu" className="duration-200 absolute md:relative flex md:flex-row flex-col top-[-100%] md:top-[inherit] w-48 right-0 bg-gray-200 md:bg-transparent">
                 {/* <span className="px-1"><a href={pdfFile} download="VartikaAgarwal_Resume.pdf"> Resume </a></span> */}
                 <div  className="relative inline-block text-left text-sm md:text-xl">
                     <div>
@@ -34,11 +50,12 @@ const Header = ()=>{
                         </div>
                     </div>)}
                 </div>
-                <span className="px-1"><Link to={"/contact"}>Contact</Link></span>
+                <span className="px-4"><Link to={"/contact"}>Contact</Link></span>
             </div>
             <button className="text-2xl md:hidden" onClick={()=>{menuFetch();}}>
                 <ion-icon id="menuToggle"  className="cursor-pointer" name="menu-outline"></ion-icon>
             </button>
+        </div>
         </div>
     )
 }

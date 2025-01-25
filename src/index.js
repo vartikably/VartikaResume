@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Body from './components/Body';
-import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import SkillsExpertise from './components/SkillsExpertise';
@@ -24,10 +23,6 @@ const router = createBrowserRouter(
         {
           path: "/skills",
           element: <SkillsExpertise/>
-        },
-        {
-          path: "/resume",
-          element: <Resume/>
         },
         {
           path: "/contact",
